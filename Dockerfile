@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM registry:0.8.1
 
 RUN apt-get update -y
 RUN apt-get install -y redis-server
